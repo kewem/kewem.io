@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Poppins', sans-serif;
+}
+
+body {
+    height: 100vh;
+    background-image: linear-gradient(to right top, #000000, #7230d2);
+}
+
+section {
+	position: relative;
+	width: 100%;
+	min-height: 100vh;
+	padding: 100px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+header {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	padding: 20px 100px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+header .logo {
+	position: relative;
+	max-width: 80px;
+    border-radius: 50px;
+    margin-top: 25px;
+}
+
+header ul {
+	position: relative;
+	display: flex;
+}
+
+header ul li {
+	list-style: none;
+}
+
+header ul li {
+    display: inline-block;
+    color: #fff;
+    font-weight: 500;
+    margin-left: 40px;
+    text-decoration: none;
+}
+
+.content {
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.content .textBox {
+    position: relative;
+    max-width: 600px;
+}
+
+.content .textBox h2 {
+    color: #8738ff;
+    font-size: 3.5em;
+    line-height: 1.2em;
+    font-weight: 500;
+}
+
+.content .textBox h2 span {
+    color: #fff;
+    font-size: 1;
+    font-weight: 700;
+}
+
+.content .textBox p {
+    color: #fff;
+    margin-top: 20px;
+}
+
+.content .textBox a {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 8px 20px;
+    background: #8738ff;
+    color: #fff;
+    border-radius: 40px;
+    text-decoration: none;
+    letter-spacing: 1px;
+}
+
+.content .imgBox {
+    width: 600px;
+    display: flex;
+    justify-content: flex-end;
+    /* padding-right: 50px; */
+}
+
+.content .imgBox .bigImg{
+	max-width: 250px;
+    border-radius: 12px;
+}
+
+.social-links li {
+    list-style: none;
+}
+
+.social-links li a {
+    display: inline-block;
+    margin: 5px 0;
+    /* transform: scale(0.1); */
+}
+
+.social-links li img {
+    max-width: 50px;
+}
